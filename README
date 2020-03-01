@@ -1,0 +1,61 @@
+// Copyright 2019 Rachieru Costin Tudor <<costinrch46@gmail.com>>
+Nume: Rachieru
+	Prenume: Costin Tudor
+	Grupa: 314
+	Seria: CA
+
+	Data inceperii temei: 27-04-2019
+	Data finalizarii temei: 04-05-2019
+
+	
+	
+	Problemele intampinate:
+		- Mi-a luat destul de mult timp pana sa ma prind cum trebuie
+		implementata tema in schelet.
+		- Timpi destul de restrictivi de TIMEOUT. Nu am apucat sa ma
+		chinui suficient ca sa rezolv problemele de eficienta.
+
+	
+
+	Algoritmul utilizat:
+
+	
+	<Task 1>
+		Incarc Table cu intersecitii. Incarc Graph cu muchiile dintre
+	noduri. Rezolv taskul.
+
+	<Task 2> <Task 3>
+		Nimic deosebit. Toate functiile sunt evidente si facute in 
+	ListGraph.h.
+
+	<Task 4>
+		Am tratat fiecare querry in parte, in graba, din pacate, in
+	mod ineficient. Am explicat in comentarii modul in care functioneaza.
+
+	<Task 5>
+		Programul gaseste locatia soferului, calculeaza cat combustibil
+	ii trebuie pana la fiecare intersectie si sorteaza intersectiile in
+	functie de asta. La afisare, programul afiseaza in ordine doar
+	intersectiile la care poate ajunge pana cand i se termina
+	combustibilul.
+
+	Am folosit pentru stocarea datelor:
+		- Table: care este un Hashtable cu key-ul numele interesectiei si
+		value, id-ul ei.
+		- DriversTable: care este un Hashtable cu key-ul numele soferului si
+		value, id-ul lui.
+		- Graph: O clasa in care am stocat sub forma de vectori toate muchiile
+		din graf.
+		- Drivers_info: O clasa in care am stocat toate informatiile necesare
+		despre un sofer.
+
+
+
+	Complexitatea temei:
+
+			Per total mi s-a parut o tema moderata din punct de vedere al
+		complexitatii. Problema propriu-zisa a fost atractiva si practica,
+		ceea ce mi s-a parut foarte tare. Din pacate perioada in care a trebuit
+		sa o facem a fost una foarte incarcata, cu toate ca prelungirea
+		deadline-ului a fost una generoasa.		
+
